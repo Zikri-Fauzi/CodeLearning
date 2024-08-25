@@ -4,13 +4,11 @@ Deklarasi
 
     INPUT r = "integer"
 
-    INPUT phi = 22/7 or 3.14
-
 Deskripsi
 
     READ AND SAVE r
 
-    READ AND SAVE phi
+    READ phi = 22/7 or 3.14
 
     CALCULATE LUAS = phi * r * r 
 
