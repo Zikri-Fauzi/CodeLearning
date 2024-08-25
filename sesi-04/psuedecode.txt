@@ -1,0 +1,26 @@
+Menghitung LUAS dan KELILING lingkaran
+
+Deklarasi
+
+    INPUT r = "integer"
+
+    INPUT phi = 22/7 or 3.14
+
+Deskripsi
+
+    READ AND SAVE r
+
+    READ AND SAVE phi
+
+    CALCULATE phi * r * r 
+
+    CALCULATE 2 * phi * r * r
+
+End
+
+    WRITE ("LUAS LINGKARAN=" LUAS)
+
+    WRITE ("KELILING LINGKARAN=" KELILING)
+
+
+
