@@ -12,9 +12,9 @@ Deskripsi
 
     READ AND SAVE phi
 
-    CALCULATE phi * r * r 
+    CALCULATE LUAS = phi * r * r 
 
-    CALCULATE 2 * phi * r * r
+    CALCULATE KELILING = 2 * phi * r
 
 End
 
