@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<body>
+    <label>Pesan:</label><input id="text"><br>
+    <label>Berapa kali</label><input id="number"><br>
+    <button onclick ="cetak()">Cetak!</button>
+    <ol id="list"></ol>
+
+    <script>
+        var kalimat_inputan = document.getElementById("text")
+
+        var banyak_permintaan = document.getElementById("number")
+
+        var hasil = document.getElementById("list")
+
+        function cetak(){
+            var kalimatValue = kalimat_inputan.value;
+            var banyaknyaValue = banyak_permintaan.value;
+            //buat tampungan value kosong
+            var hasilValue = "";
+
+            hasilValue += `<ul>`;
+            hasilValue += `<li>Isi pesan: ${kalimatValue}</li>`;
+            hasilValue += `<li>Berapa Kali: ${banyaknyaValue}</li>`;
+            hasilValue +=`</ul>`;
+            hasilValue += `<ol>`;
+                for (let i = 0; i < banyaknyaValue; i++){
+                    hasilValue += `<li>${kalimatValue}</li>`;
+                }
+            hasilValue += `</ol>`;
+            hasil.innerHTML = hasilValue;
+        } 
+    </script>
+</body>
+</html>
